@@ -109,20 +109,20 @@ MYSQL_PASSWORD=dev
 Open `bedrock/.env` and edit like below, and generate your keys.
 If you changed db user, password, then also change these.
 ```bash
-DB_NAME=test
-DB_USER=dev
-DB_PASSWORD=dev
+DB_NAME=test # <--- Fix
+DB_USER=dev # <--- Fix
+DB_PASSWORD=dev # <--- Fix
 
 # Optionally, you can use a data source name (DSN)
 # When using a DSN, you can remove the DB_NAME, DB_USER, DB_PASSWORD, and DB_HOST variables
 # DATABASE_URL=mysql://database_user:database_password@database_host:database_port/database_name
 
 # Optional variables
-DB_HOST=mysql
+DB_HOST=mysql # <--- Fix
 # DB_PREFIX=wp_
 
 WP_ENV=development
-WP_HOME=http://localhost:8000 # <--- Change this if you fix the ip.
+WP_HOME=http://localhost:8000 # <--- Fix
 WP_SITEURL=${WP_HOME}/wp
 
 # Generate your keys here: https://roots.io/salts.html

@@ -104,20 +104,20 @@ MYSQL_PASSWORD=dev
 `bedrock/.env`を開いて、下記のように編集し、キーを書き加えてください。
 DBのユーザー、パスワードを変えた場合は、そちらも修正してください。
 ```bash
-DB_NAME=test
-DB_USER=dev
-DB_PASSWORD=dev
+DB_NAME=test # <--- 編集
+DB_USER=dev # <--- 編集
+DB_PASSWORD=dev # <--- 編集
 
 # Optionally, you can use a data source name (DSN)
 # When using a DSN, you can remove the DB_NAME, DB_USER, DB_PASSWORD, and DB_HOST variables
 # DATABASE_URL=mysql://database_user:database_password@database_host:database_port/database_name
 
 # Optional variables
-DB_HOST=mysql
+DB_HOST=mysql # <--- 編集
 # DB_PREFIX=wp_
 
 WP_ENV=development
-WP_HOME=http://localhost:8000 # <--- IPを変えた場合は、ここも直してください。
+WP_HOME=http://localhost:8000 # <--- 編集
 WP_SITEURL=${WP_HOME}/wp
 
 # このサイトでキーを生成してください: https://roots.io/salts.html

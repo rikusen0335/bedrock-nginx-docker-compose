@@ -57,7 +57,7 @@ This automate your Wordpress theme/plugin development.
   - [Configure Bedrock env file](#configure-bedrock-env-file)
   - [Test and verify your Wordpress is running](#test-and-verify-your-wordpress-is-running)
 - [Credits](#credits)
-  - [Special thanks](#special-thanks)
+- [Improve us](#improve-us)
 
 ## Installation
 ### Clone the template
@@ -142,6 +142,9 @@ Do `docker-compose up` and you are good to go!
 Initial build may take a long time.
 
 ## Credits
-### Special thanks
+### Special thanks <!-- omit in toc --> 
 I reffered to [docker-nginx-php-mysql](https://github.com/nanoninja/docker-nginx-php-mysql).
 Thanks @nanoninja!
+
+## Improve us
+We're taking any feedback! Please send it to my [Twitter](https://twitter.com/RikuS3n) or any contact.

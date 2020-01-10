@@ -1,0 +1,16 @@
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore all local history of files
+.history
+
+### Other ###
+data
+
+### Bedrock ###
+# If you want to include Bedrock files, delete below bedrock exclude lines
+bedrock

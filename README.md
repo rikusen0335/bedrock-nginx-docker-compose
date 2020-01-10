@@ -1,5 +1,5 @@
 # Nginx | PHP | MySQL on Docker Compose <!-- omit in toc --> 
-This automate your Wordpress theme/plugin development.
+This project helps your Wordpress theme/plugin development.
 
 ## Prerequisites
 - [Composer](https://getcomposer.org/)
@@ -106,7 +106,7 @@ MYSQL_PASSWORD=dev
 
 ### Configure Bedrock env file
 
-Open `bedrock/.env` and edit like this, and generate your keys.
+Open `bedrock/.env` and edit like below, and generate your keys.
 If you changed db user, password, then also change these.
 ```bash
 DB_NAME=test

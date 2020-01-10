@@ -64,7 +64,7 @@ This automate your Wordpress theme/plugin development.
 
 Clone the repository
 ```
-git clone url
+git clone https://github.com/rikusen0335/bedrock-nginx-docker-compose.git
 ```
 
 

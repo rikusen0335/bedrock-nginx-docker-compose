@@ -1,4 +1,4 @@
-# Nginx | PHP | MySQL on Docker Compose
+# Nginx | PHP | MySQL on Docker Compose <!-- omit in toc --> 
 This automate your Wordpress theme/plugin development.
 
 ## Prerequisites
@@ -9,7 +9,7 @@ This automate your Wordpress theme/plugin development.
 
 ---
 
-### 日本語をお探しですか？
+### 日本語をお探しですか？ <!-- omit in toc --> 
 日本語をご利用の方は、こちらのREADMEをお読みください->[README_ja](README_ja.md)
 
 ---
@@ -45,12 +45,17 @@ This automate your Wordpress theme/plugin development.
 - `data` store datas. Usually include mysql data.
 - `docker-compose.yml` is written docker containers.
 
-## Contents
-1. [Clone the template]
-2. [Install bedrock]
-3. [Configure env file]
-4. [Configure Bedrock env file]
-5. [Test and verify your Wordpress is running]
+## Contents <!-- omit in toc --> 
+- [Prerequisites](#prerequisites)
+- [Overview](#overview)
+  - [Features](#features)
+  - [Project structure](#project-structure)
+- [Installation](#installation)
+  - [Clone the template](#clone-the-template)
+  - [Install bedrock](#install-bedrock)
+  - [Configure env file](#configure-env-file)
+  - [Configure Bedrock env file](#configure-bedrock-env-file)
+  - [Test and verify your Wordpress is running](#test-and-verify-your-wordpress-is-running)
 
 ## Installation
 ### Clone the template

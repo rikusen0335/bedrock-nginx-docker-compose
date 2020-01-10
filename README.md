@@ -56,6 +56,8 @@ This automate your Wordpress theme/plugin development.
   - [Configure env file](#configure-env-file)
   - [Configure Bedrock env file](#configure-bedrock-env-file)
   - [Test and verify your Wordpress is running](#test-and-verify-your-wordpress-is-running)
+- [Credits](#credits)
+  - [Special thanks](#special-thanks)
 
 ## Installation
 ### Clone the template
@@ -138,3 +140,8 @@ NONCE_SALT='generateme'
 
 Do `docker-compose up` and you are good to go!
 Initial build may take a long time.
+
+## Credits
+### Special thanks
+I reffered to [docker-nginx-php-mysql](https://github.com/nanoninja/docker-nginx-php-mysql).
+Thanks @nanoninja!

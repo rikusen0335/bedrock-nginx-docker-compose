@@ -1,7 +1,7 @@
 version: "3.3"
 
 services:
-  bndc-nginx:
+  nginx:
     image: nginx:${NGINX_VERSION}
     volumes:
       - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
@@ -15,11 +15,11 @@ services:
     command: /bin/sh -c "envsubst '$$NGINX_HOST' < /etc/nginx/conf.d/default.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
     restart: always
     depends_on:
-      - bndc-php
-      - bndc-mysql
+      - php
+      - mysql
 
 
-  bndc-php:
+  php:
     build: ./
     restart: always
     volumes:
@@ -28,16 +28,15 @@ services:
       - ./bedrock/web:/var/www/html
 
 
-  bndc-composer:
+  composer:
     image: composer
     volumes:
       - ./bedrock:/app
     command: install
 
 
-  bndc-myadmin:
+  myadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin
     ports:
       - 8080:80
     environment:
@@ -45,10 +44,10 @@ services:
       - PMA_HOST=${MYSQL_HOST}
     restart: always
     depends_on:
-      - bndc-mysql
+      - mysql
 
 
-  bndc-mysql:
+  mysql:
     image: mysql:${MYSQL_VERSION}
     container_name: ${MYSQL_HOST}
     restart: always

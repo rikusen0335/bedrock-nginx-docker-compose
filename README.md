@@ -18,8 +18,9 @@ This automate your Wordpress theme/plugin development.
 ### Features
 - [x] Automated Wordpress installation with roots/bedrock
 - [x] Latest Wordpress, PHP, Nginx available 
-- [ ] Support roots/sage theme developing
+- [ ] roots/sage theme developing support
 - [ ] Edit only 1 file
+- [ ] SSL support?
 
 ### Project structure
 ```

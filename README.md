@@ -79,7 +79,7 @@ composer create-project roots/bedrock bedrock
 ### Configure env file
 
 Open `.env` file and edit like:
-```bash:.env
+```bash
 #!/usr/bin/env bash
 
 # See https://docs.docker.com/compose/environment-variables/#the-env-file
@@ -108,7 +108,7 @@ MYSQL_PASSWORD=dev
 
 Open `bedrock/.env` and edit like this, and generate your keys.
 If you changed db user, password, then also change these.
-```bash:bedrock/.env
+```bash
 DB_NAME=test
 DB_USER=dev
 DB_PASSWORD=dev
